@@ -4,3 +4,40 @@
 • Visual Studio Code;<br>
 # DB model - preview
 ![image](https://user-images.githubusercontent.com/92596074/194746266-a89eb216-f212-4e4c-902d-c682625d967b.png)
+
+
+<br>
+CREATE TABLE [dbo].[GOODS] (
+    [goods_id]             INT          IDENTITY (1, 1) NOT NULL,
+    [shop_id]              INT			NOT NULL, 
+    [goods_name]           VARCHAR (50) NOT NULL,
+    [goods_price_onepiece] INT          NOT NULL,
+    [goods_quentity]       INT          NOT NULL,
+    [goods_code]           INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([goods_id] ASC)
+);
+
+INSERT INTO GOODS (goods_name, goods_price_onepiece, goods_quentity, goods_code) VALUES ('iPhone 13 GOLD', 58990, 118, 40135845)
+INSERT INTO GOODS (goods_name, goods_price_onepiece, goods_quentity, goods_code) VALUES ('iPhone 13 NAVY BLUE', 56990, 95, 40135712)
+INSERT INTO GOODS (goods_name, goods_price_onepiece, goods_quentity, goods_code) VALUES ('iPhone 14 PRO', 120000, 25, 40136001)
+
+
+CREATE TABLE [dbo].[BUYER] (
+    [buyer_id]         INT          IDENTITY (1, 1) NOT NULL,
+    [buyer_mail] VARCHAR (40) NOT NULL,
+    PRIMARY KEY CLUSTERED ([buyer_id] ASC)
+);
+
+INSERT INTO BUYER (buyer_mail) VALUES ('gogen86@gmail.com')
+INSERT INTO BUYER (buyer_mail) VALUES ('nyansha_kz@yandex.ru')
+INSERT INTO BUYER (buyer_mail) VALUES ('nurimhan4ik@gmail.com')
+
+
+CREATE TABLE [dbo].[SELL] (
+    [sell_id]            INT IDENTITY (1, 1) NOT NULL,
+	[goods_id]	         INT			NOT NULL, 
+	[buyer_id]	         INT			NOT NULL, 
+    [sell_quentity] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([sell_id] ASC)
+);
+
