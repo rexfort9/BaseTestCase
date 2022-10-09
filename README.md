@@ -3,7 +3,9 @@
 • SQL Server Management Studio;<br>
 • Visual Studio Code;<br>
 # DB model - preview
-![image](https://user-images.githubusercontent.com/92596074/194746266-a89eb216-f212-4e4c-902d-c682625d967b.png)
+![image](https://user-images.githubusercontent.com/92596074/194775088-01388766-7036-4507-a503-ec1f24632f67.png)<br>
+![image](https://user-images.githubusercontent.com/92596074/194775117-65974e66-50ca-42bc-9447-d1b4d197ecc0.png)<br>
+
 
 
 <br>
