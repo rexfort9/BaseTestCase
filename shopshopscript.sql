@@ -1,10 +1,4 @@
-/*
-File name: C:\Users\Bee_h\Desktop\BaseTestCase\shopshopscript.sql
-Creation date: 10/10/2022
-Created by MSSQL to PostgreSQL 6.1 [Demo]
---------------------------------------------------
-More conversion tools at http://www.convert-in.com
-*/
+
 set client_encoding to 'UTF8';
 
 /*
