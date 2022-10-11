@@ -18,6 +18,7 @@ Dumping data for table 'public.BUYER'
 INSERT INTO "public"."BUYER"("buyer_id", "buyer_mail") VALUES (1, 'gogen86@gmail.com');
 INSERT INTO "public"."BUYER"("buyer_id", "buyer_mail") VALUES (2, 'nyansha_kz@yandex.ru');
 INSERT INTO "public"."BUYER"("buyer_id", "buyer_mail") VALUES (3, 'nurimhan4ik@gmail.com');
+INSERT INTO "public"."BUYER"("buyer_id", "buyer_mail") VALUES (4, 'richbitch69@gmail.com');
 
 /*
 Table structure for table 'public.GOODS'
@@ -33,6 +34,11 @@ ALTER TABLE "public"."GOODS" ADD CONSTRAINT "PK__GOODS__40BA2239A998E05E" PRIMAR
 Dumping data for table 'public.GOODS'
 */
 
+INSERT INTO "public"."GOODS"("goods_id", "shop_id", "goods_name", "goods_price_onepiece", "goods_quentity", "goods_code") VALUES (1, 3, 'iPhone 14 PRO', 95990, 55, 4805152);
+INSERT INTO "public"."GOODS"("goods_id", "shop_id", "goods_name", "goods_price_onepiece", "goods_quentity", "goods_code") VALUES (2, 3, 'iPhone 11', 51500, 95, 4805184);
+INSERT INTO "public"."GOODS"("goods_id", "shop_id", "goods_name", "goods_price_onepiece", "goods_quentity", "goods_code") VALUES (3, 1, 'iPhone 13 PRO', 71999, 15, 4805995);
+INSERT INTO "public"."GOODS"("goods_id", "shop_id", "goods_name", "goods_price_onepiece", "goods_quentity", "goods_code") VALUES (4, 2, 'iPhone 14 PRO MAX', 120000, 29, 4805835);
+INSERT INTO "public"."GOODS"("goods_id", "shop_id", "goods_name", "goods_price_onepiece", "goods_quentity", "goods_code") VALUES (5, 2, 'iPhone 14', 89990, 48, 4807862);
 
 /*
 Table structure for table 'public.SELL'
@@ -62,6 +68,9 @@ ALTER TABLE "public"."SHOP" ADD CONSTRAINT "PK__SHOP__AD08178645814C56" PRIMARY 
 Dumping data for table 'public.SHOP'
 */
 
+INSERT INTO "public"."SHOP"("shop_id", "shop_name", "shop_adress") VALUES (1, 'White Zone RUS', 'Lenina str. 118/2');
+INSERT INTO "public"."SHOP"("shop_id", "shop_name", "shop_adress") VALUES (2, 'iPort', 'Savushkina str. 11');
+INSERT INTO "public"."SHOP"("shop_id", "shop_name", "shop_adress") VALUES (3, 'Store USA Staff', 'Freedom road, 88-4');
 
 /*
 Table structure for table 'public.sysdiagrams'
