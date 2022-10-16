@@ -5,8 +5,8 @@
 • JDK + Gradle/ Instructions are [here for Gradle](https://ru.hexlet.io/courses/java-setup-environment/lessons/gradle-init/theory_unit), and [here for SpringBoot](https://russianblogs.com/article/5265957011/);<br>
 • java version "17.0.4.1";<br>
 • Gradle version "7.5.1";<br>
-•Kotlin:       1.6.21<br>
-_Groovy:       3.0.10;<br>
+• Kotlin:       1.6.21;<br>
+• Groovy:       3.0.10;<br>
 • Visual Studio Code;<br>
 # DB model - preview
 ![image](https://user-images.githubusercontent.com/92596074/194775088-01388766-7036-4507-a503-ec1f24632f67.png)<br>
