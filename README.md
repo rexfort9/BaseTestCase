@@ -1,6 +1,8 @@
 # Test project, includes SQL & Java scripting.
  Iterations:<br>
 • SQL Server Management Studio;<br>
+• pgAdmin4;<br>
+• JDK + Gradle/ Instructions are here [https://ru.hexlet.io/courses/java-setup-environment/lessons/gradle-init/theory_unit]<br>
 • Visual Studio Code;<br>
 # DB model - preview
 ![image](https://user-images.githubusercontent.com/92596074/194775088-01388766-7036-4507-a503-ec1f24632f67.png)<br>
