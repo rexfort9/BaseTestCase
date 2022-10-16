@@ -6,7 +6,7 @@
 • java version "17.0.4.1";<br>
 • Gradle version "7.5.1";<br>
 •Kotlin:       1.6.21<br>
- Groovy:       3.0.10;<br>
+_Groovy:       3.0.10;<br>
 • Visual Studio Code;<br>
 # DB model - preview
 ![image](https://user-images.githubusercontent.com/92596074/194775088-01388766-7036-4507-a503-ec1f24632f67.png)<br>
